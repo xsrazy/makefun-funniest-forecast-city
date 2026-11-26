@@ -10,6 +10,10 @@ this one warns you about your weekend plans instead, as if the weather
 service has given up on the sky and started reporting on your social life.
 The three-beat escalation (light rain, heavy rain, ruined weekend) makes
 the punchline land fast, which is what a head-to-head joke contest rewards.
+
+Revision note: after the first draft the entry was run locally and the
+output file was checked byte for byte against the winning line, with no
+trailing newline, so the program below ships exactly the line above.
 """
 
 import os
